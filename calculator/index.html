@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="display">0</div>
+      <div id="keys">
+        <button class="wide" data-action="clear">Clear</button>
+        <button data-action="backspace">&#9003;</button>
+        <button data-op="/">&divide;</button>
+
+        <button data-digit="7">7</button>
+        <button data-digit="8">8</button>
+        <button data-digit="9">9</button>
+        <button data-op="*">&times;</button>
+
+        <button data-digit="4">4</button>
+        <button data-digit="5">5</button>
+        <button data-digit="6">6</button>
+        <button data-op="-">&minus;</button>
+
+        <button data-digit="1">1</button>
+        <button data-digit="2">2</button>
+        <button data-digit="3">3</button>
+        <button data-op="+">+</button>
+
+        <button class="wide" data-digit="0">0</button>
+        <button id="decimal" data-action="decimal">.</button>
+        <button data-action="equals">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
